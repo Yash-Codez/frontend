@@ -163,8 +163,7 @@ const UserProducts = () => {
             >
               {/* Link only for image & name */}
               <Link to={`/products/${product._id}`}>
-                <img
-                  
+               <img
                   src={
   product.image
     ? `https://backend-1-8lk6.onrender.com${product.image}`
