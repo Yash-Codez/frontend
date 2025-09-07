@@ -164,11 +164,12 @@ const UserProducts = () => {
               {/* Link only for image & name */}
               <Link to={`/products/${product._id}`}>
                 <img
+                  <img
                   src={
-                    product.image
-                      ? `http://localhost:5000${product.image}`
-                      : "/images/plant-placeholder.png"
-                  }
+  product.image
+    ? `https://backend-1-8lk6.onrender.com${product.image}`
+    : "/images/plant-placeholder.png"
+}
                   alt={product.name}
                   className="w-full h-40 object-cover rounded-lg mb-3"
                 />
